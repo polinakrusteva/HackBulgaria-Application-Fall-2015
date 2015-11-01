@@ -82,5 +82,6 @@ public class WordGame {
             }result+=countOccurrences(builder.toString(), word, reversedWord);
         }
         System.out.println(result);
+        scanner.close();
     }
 }

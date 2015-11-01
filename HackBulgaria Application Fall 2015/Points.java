@@ -61,5 +61,6 @@ public class Points {
             start.add(stringMap.get(symbol));
         }
         System.out.println(start);
+        scanner.close();
     }
 }
